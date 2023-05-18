@@ -1,0 +1,77 @@
+.middleindex{
+    display: block;
+    background-color: #729EA1;
+    height: auto;
+    padding: 20px;
+}
+.middleindex h2{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.section .section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1.again{
+    border-right: 2px solid black;
+}
+.section1 > .artpic{
+    width: 80%;
+    height: 80%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.artpic img{
+    max-width: 80%;
+}
+.sectionmini{
+    width: 50%;
+}
+.sectionmini p,h3{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    
+}
+.sectionmini h3 span.job{
+    color: #101935;
+}
+.section h3 span.name{
+    color: goldenrod;
+}
+@media (max-width:1300px){
+    .section{
+        display: block;
+        height: auto;
+    }
+    .artpic img{
+        max-height: 30;
+    }
+    .sectionmini{
+        width: 80%;
+    }
+    .sectionmini p{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .sectionmini h3{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}

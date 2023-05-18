@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kaung Khant | Artsounds</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Logos/artsound.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="art.css"> 
+    <link rel="stylesheet" type="text/css" href="aboutteammember.css">
+</head>
+<body>
+    <div class="transition activetransition" id="transition"></div>
+    <nav class="mininavph">
+                <div class="iconsph"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div>
+                <div class="iconsph"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div>
+                <div class="iconsph again" onclick="handleClick3(this)"><a><i class="fa-solid fa-search"></i></a></div>
+               <div class="iconsph"><a onclick="music(this)"><i class="fa-sharp fa-solid fa-music"></i></a></div>
+                <div class="iconsph"><a href="#"><i class="fa-solid fa-compass"></i></a></div>
+    </nav>
+    <nav class="mininav" id="mininav">
+        <ul>
+        <li><div class="icons"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div></li>
+        <li><div class="icons"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div></li>
+         <li><div class="icons again" onclick="handleClick(this)"><a><i class="fa-solid fa-search"></i></a></div></li>
+        <li><div class="icons"><a onclick="music(this)"><i class="fa-sharp fa-solid fa-music"></i></a></div></li>
+         <li><div class="icons"><a href="#"><i class="fa-solid fa-compass"></i></a></div></li>
+          </ul>
+            <form class="searchbar" id="searchInput"><input type="text" id="searchInput1" placeholder="Search..." >
+                    <i class="fa-solid fa-search"></i>
+                </form>
+    </nav>
+    <div class="navclass">
+        <nav class="sidebar"></nav>
+    </div>
+
+    <div class="upperindex">
+        
+        <div class="nav">
+            <div class="left1">
+                <span class="navspan1" onclick="aboutus(this)">About</span>
+            </div>
+        
+            <div class="left2">
+
+                <span class="navspan2">Journey</span>
+            </div>
+            <div class="middle">
+                <a onclick="clickAgain1(this)">
+                <img src="/Logos/Artsounds (1).svg">
+                </a>
+            </div>
+            <div class="right">
+                <span class="navspan3">Help</span>
+            </div>
+            <div class="right2">
+                <button type="submit" class="explore">
+                    <span class="animatedicon"><i class="fa-solid fa-brush fa-bounce"></i></span>
+                    <span class="text" onclick="clickAgain2(this)">Explore The Art!</span>
+                </button>
+            </div>
+        </div>  
+    </div>
+    <div class="middleindex">
+        <section class="teammember">
+            <div class="teammemberimg">
+                <img src="Images/Teammembers/Aw Thu Chal V2.png">
+            </div>
+            <div class="aboutmemberbio">
+                <h2>Aw Thu Chal</h2>
+                <h3>
+                    Introduction 
+                    <p>
+                        Hello guys! I'm Aw Thu Chal but you can just know as Aw Thu. I'm a girl who has cute face xD. I live in small town which call Taungoo, Bago. I'm 15 years old girl but I will be 16 in this december. I'm interested in creating poster, editing, listening music and also cooking. One of my bad habit is I'm really lazy to do exercises and to get up early. In my free time, I just sleep and listen music. I really like blue and I always buy some of the things which is blue. I'm chinese girl but I know nothing about chinese language so i'm still learning for that. I'm looking forward to getting to know other people and learning more about them!
+                    </p>
+                </h3>
+
+            </div>
+        </section>
+    </div>
+<footer class="main">
+        <div class="footerleft">
+          <div class="form-box">
+            <h1>Team Radiant Likes To Sent You Emails!</h1>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required>
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-signature"></i></span>
+                <input type="text" required>
+                <label>Name</label>
+              </div>
+              <button type="submit" id="buttonsign">Sign Up!</button>
+            </form>
+        </div>
+      </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="onclick.js"></script>
+</body>
+</html>

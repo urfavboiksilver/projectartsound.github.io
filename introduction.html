@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ArtSounds | A Base for Two Entertainment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="main.css" type="text/css" media="screen" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="intro.css" type="text/css" media="screen" rel="stylesheet" >
+    <link rel="icon" type="image/x-icon" href="/Logos/artsound.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="onclick.js"></script>
+</head>
+<body> 
+    <div class="transition activetransition" id="transition"></div>
+    <nav class="mininav" id="mininav">
+        <ul>
+        <li><div class="icons"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div></li>
+        <li><div class="icons"><a href="#"><i class="fa-solid fa-music "></i></a></div></li>
+         <li><div class="icons again" onclick="handleClick(this)"><a><i class="fa-solid fa-search"></i></a></div></li>
+        <li><div class="icons"><a href="#"><i class="fa-sharp fa-solid fa-brush"></i></a></div></li>
+         <li><div class="icons"><a href="#"><i class="fa-solid fa-compass"></i></a></div></li>
+          </ul>
+            <form class="searchbar" id="searchInput"><input type="text" id="searchInput1" placeholder="Search..." >
+                    <i class="fa-solid fa-search"></i>
+                </form>
+    </nav>
+    <div class="video">
+
+        <div class="video1">
+            <video controls autoplay>
+            </video>
+        </div>
+    </div>
+</body>
+</html>

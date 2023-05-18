@@ -1,0 +1,155 @@
+.middleindex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.midclasstime{
+    position: static;
+    width: 15%;
+    height: auto;
+    background-color: #d66853;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.mininav{
+    height: 100%;
+    top: 0;
+    width: 3%;
+    border-radius: 0;
+}
+footer.main{
+    width: 100%;
+    height: auto;
+}
+.upperindex{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    background-color: #bda250dd;
+}
+.upperindex .left1,.right2{
+    width: 20%;
+}
+.left2,.right{
+    width: 10%;
+}
+
+
+.midclasstime h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    letter-spacing: 20px;
+    line-height: 50px;
+    transform: rotate(-90deg);
+}
+.midclass2{
+    width: 100%;
+    height: 100%;
+}
+.midclass2 h2{
+    text-align: center;
+    color: #171219;
+    text-shadow: none;
+    font-size: 100px;
+}
+.midclass2 .arts{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+    border: 0px solid goldenrod;
+    transition: border .3s ease-in-out;
+}
+.midclass2 .arts:hover{
+    border: 10px solid goldenrod;
+}
+.arts img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.artpreviews{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center ;
+}
+.artmain{
+    width: 500px;
+    height: 700px;
+    justify-content: center;
+    align-items: top;
+    float: left;
+    margin-left: 2rem;
+}
+.artmain .bio1{
+    width: 100%;
+    height: 30%;
+
+}
+.bio1 > p{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    opacity: 0.7;
+}
+.bio1  .bio{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Bebas Neue',cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #101935;
+}
+.author{
+    margin-top: 20px;
+    color :goldenrod;
+    text-shadow: 0px 0px 10px black;
+}
+.midclass2 .arts > h5{
+    position:   absolute;
+    font-size: 20px;
+    text-align: left;
+    align-self: flex-end;
+    justify-items: right;
+    margin: 9px 22px;
+    font-family: 'Bebas Neue',cursive;
+    letter-spacing: 5px;
+}
+.midclass2 .arts span> h5{
+    letter-spacing: 2px;
+    color: #d66853;
+    text-shadow: 0px 0px 5px black;
+}
+@media (max-width: 1300px){
+    .mininav{
+        display: none;
+    }
+    .middleindex{
+        display: block;
+    }
+    .midclasstime{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .midclasstime h2{
+        font-size: 50px;
+        transform: none;
+        text-decoration: none;
+    }
+    .midclass2{
+        padding-bottom: 20px;
+    }
+    .artmain{
+        width: 300px;
+        height: 450px;
+    }
+}

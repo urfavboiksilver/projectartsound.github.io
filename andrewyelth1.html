@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ArtSounds | A Base for Two Entertainment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Logos/artsound.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="art.css"> 
+</head>
+<body>
+    <audio id="myAudio" autoplay>
+        <source src="audio/Christina's world.mp3" type="audio/mp3">
+    </audio>
+    <div class="transition activetransition" id="transition"></div>
+    <nav class="mininavph">
+      <div class="iconsph"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div>
+      <div class="iconsph"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div>
+      <div class="iconsph again" onclick="handleClick3(this)"><a><i class="fa-solid fa-search"></i></a></div>
+     <div class="iconsph"><a onclick="music(this)"><i class="fa-sharp fa-solid fa-music"></i></a></div>
+      <div class="iconsph"><a href="#"><i class="fa-solid fa-compass"></i></a></div>
+</nav>
+    <nav class="mininav" id="mininav">
+        <ul>
+        <li><div class="icons"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div></li>
+        <li><div class="icons"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div></li>
+         <li><div class="icons again" onclick="handleClick(this)"><a><i class="fa-solid fa-search"></i></a></div></li>
+        <li><div class="icons"><a onclick="music(this)"><i class="fa-sharp fa-solid fa-music"></i></a></div></li>
+         <li><div class="icons"><a href="#"><i class="fa-solid fa-compass"></i></a></div></li>
+          </ul>
+            <form class="searchbar" id="searchInput"><input type="text" id="searchInput1" placeholder="Search..." >
+                    <i class="fa-solid fa-search"></i>
+                </form>
+    </nav>
+    <div class="navclass">
+        <nav class="sidebar"></nav>
+    </div>
+
+    <div class="upperindex">
+        <div class="nav">
+            <div class="left1">
+                <div class="language"><a onclick="contactus(this)">Contact Us</a></div>
+            </div>
+            <div class="left2">
+                <span class="navspan1" onclick="aboutus(this)">About</span>
+                <span class="navspan2">Journey</span>
+            </div>
+            <div class="middle">
+                <a onclick="clickAgain1(this)">
+                <img src="Logos/Artsounds (1).svg">
+                </a>
+            </div>
+            <div class="right">
+                <span class="navspan3">Help</span>
+            </div>
+            <div class="right2">
+                <button type="submit" class="explore">
+                    <span class="animatedicon"><i class="fa-solid fa-brush fa-bounce"></i></span>
+                    <span class="text" onclick="clickAgain2(this)">Explore The Art!</span>
+                </button>
+            </div>
+        </div>
+        <div class="text1"><p class="fancy">
+            <span class="letter">C</span>
+            <span class="letter">h</span>
+            <span class="letter">r</span>
+            <span class="letter">i</span>
+            <span class="letter">s</span>
+            <span class="letter">t</span>
+            <span class="letter">i</span>
+            <span class="letter">n</span>
+            <span class="letter">a</span>
+            <span class="letter">'</span>
+            <span class="letter">s</span>
+            </p>
+            <p class="fancy">
+            <span class="letter">W</span>
+            <span class="letter">O</span>
+            <span class="letter">R</span>
+            <span class="letter">L</span>
+            <span class="letter">D</span>
+            </p>
+    </div>
+    </div>
+    <div class="middleindex">
+        <h2>10th MAY 2023</h2>
+        <div class="section">
+        <div class="section1 again">
+            <div class="artpic">
+                <img src="Images/art1.png">
+            </div>
+        </div>
+        <div class="section1">
+            <div class="sectionmini">
+                <h3><span class="job">Painter = </span><span class="name">Andrew Yetlth</span> </h3>
+                <p>
+                    Known as one of the most famous painters of the 20th century in the US.
+
+His recognition comes from depicting the realistic rural American landscape.
+
+Christina features a young woman seen from behind, wearing a pastel dress and lying in the grassy field.
+
+Although she appears to be strangely alert and tense, her gaze fixated on the distant farmhouse.
+
+Wyeth knew this physically impaired woman in person. She was unable to walk properly due to a muscular and nervous disorder.
+
+The title of the painting ‘Christina’s world’ reveals the inner significance of its simple-looking subjects.
+
+It indicates that this painting is more of a psychological landscape than a portrait.
+
+It is at The Museum of Modern Art, New York City.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer class="main">
+        <div class="footerleft">
+          <div class="form-box">
+            <h1>Team Radiant Likes To Sent You Emails!</h1>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required>
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-signature"></i></span>
+                <input type="text" required>
+                <label>Name</label>
+              </div>
+              <button type="submit" id="buttonsign">Sign Up!</button>
+            </form>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="onclick.js"></script>
+</body>
+
+</html>

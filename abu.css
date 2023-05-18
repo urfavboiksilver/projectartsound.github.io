@@ -1,0 +1,131 @@
+.headerh1team{
+	margin-top: 20px;
+	text-align: center;
+}
+.aboutus{
+	padding: 20px 0px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 20px;
+	align-items: center;
+	border: 1px transparent;
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0px 0px 10px grey;
+	margin-top: 20px;
+}
+.containerabu{
+	display: flex;
+	align-items: center;
+	width: 85%;
+	margin: auto;
+}
+.containorabout{
+	width: 50%;
+}
+.bio{
+	width: 90%;
+	height: auto;
+	border: 1px transparent;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px grey;
+	padding: 10px;
+}
+.cl{
+	display: flex;
+	width: 100%;
+}
+.cl1{
+	padding: 10px;
+	margin-bottom: 10px;
+	align-items: left;
+	width: 90%;
+	height: auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px grey;
+}
+.ourmissionh1{
+	margin: 30px;
+	text-align: center;
+	color: #162938;
+	text-decoration: underline;
+}
+.introtext{
+	color: #162938;
+}
+.ourmissionh4{
+	color: #333;
+	letter-spacing: 2px;
+}
+.ourmissionh3{
+	margin: 20px 20px;
+	text-align: left;
+	color: grey;
+}
+.ourmissionh31{
+	color: grey;
+	padding: 30px;
+	margin: 30px;
+}
+.ourteam{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.teammembers{
+	width: 350px;
+	height: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.teammembers h3{
+	margin: 20px;
+	text-align: center;
+}
+.teammemberimg{
+	width: 250px;
+	height: 400px;
+	margin: auto;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px;
+	transform: scale(1);
+	transition: all 0.2s ease;
+}
+.teammemberimg:hover{
+	transform: scale(1.05);
+}
+.teammemberimg img{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 100%;
+}
+@media (max-width:1300px){
+	.containerabu{
+		display: block;
+	}
+	.cl{
+		width: 100%;
+	}
+	.radiantimg{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	.radiantimg img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ourteam{
+		padding: 10%;
+	}
+}

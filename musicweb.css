@@ -1,0 +1,107 @@
+.artist{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    background: linear-gradient(to right, #c1fba4,#e9edde, #dba4fb);
+    border-bottom: 1px solid  linear-gradient(to right, #c1fba4,#e9edde, red);
+}
+.upperindex{
+    background: linear-gradient(to right, #c1fba4,#e9edde, #dba4fb);  
+}
+.middleindex{
+    display: block;
+    height: auto;
+}
+.album{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px ;
+    overflow: hidden;
+    box-shadow: 0px 0px 10pc linear-gradient(to right #c1fba4,#dba4fb,#e9edde);
+}
+.album img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.album1{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10pc linear-gradient(to right #c1fba4,#dba4fb,#e9edde);
+}
+.album1 h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+.album1 p{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.album1 .names{
+    font-family: 'Oswald', sans-serif;
+}
+.album1 audio{
+    margin-top: 40px;
+    width: 100%;
+    background-color: white;
+}
+.sectionlyrics{
+    width: 100%;
+    height: auto;
+}
+.sectionlyrics h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 30px;
+}
+.sectionlyrics .lyrics{
+    text-align: center;
+    width: 30%;
+    background: linear-gradient(to right #c1fba4,#dba4fb,#e9edde);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+}
+.lyrics pre{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+@media (max-width:1300px){
+    .sectionlyrics .lyrics{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width:400px){
+    section.artist{
+        display: block;
+        height: auto;
+        padding-bottom:20px ;
+    }
+    .album{
+        margin: auto;
+    }
+    .album1{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .sectionlyrics .lyrics{
+        width: 80%;
+        margin: auto;
+    }
+    .lyrics pre{
+        font-size: 20px;
+    }
+}

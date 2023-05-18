@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ArtSounds | A Base for Two Entertainment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <link href="art1.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="music.css" type="text/css" rel="stylesheet" media="screen">
+    <link rel="icon" type="image/x-icon" href="/Logos/artsound.png" />
+</head>
+<body>  
+    <div class="transition activetransition" id="transition"></div>
+    <nav class="mininavph">
+                <div class="iconsph"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div>
+                <div class="iconsph"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div>
+                <div class="iconsph again" onclick="handleClick3(this)"><a><i class="fa-solid fa-search"></i></a></div>
+               <div class="iconsph"><a onclick="music(this)"<i class="fa-sharp fa-solid fa-music"></i></a></div>
+                <div class="iconsph"><a href="#"><i class="fa-solid fa-compass"></i></a></div>
+    </nav>
+    <nav class="mininav" id="mininav">
+        <ul>
+        <li><div class="icons"><a onclick="clickAgain1(this)"><i class="fa-solid fa-home"></i></a></div></li>
+        <li><div class="icons"><a onclick="clickAgain2(this)"><i class="fa-solid fa-brush "></i></a></div></li>
+         <li><div class="icons again" onclick="handleClick(this)"><a><i class="fa-solid fa-search"></i></a></div></li>
+        <li><div class="icons"><a onclick="music(this)"><i class="fa-sharp fa-solid fa-music"></i></a></div></li>
+         <li><div class="icons"><a href="#"><i class="fa-solid fa-compass"></i></a></div></li>
+          </ul>
+            <form class="searchbar" id="searchInput"><input type="text" id="searchInput1" placeholder="Search..." >
+                    <i class="fa-solid fa-search"></i>
+                </form>
+    </nav>
+    <div class="navclass">
+        <nav class="sidebar"></nav>
+    </div>
+
+    <div class="upperindex">
+        
+        <div class="nav">
+            <div class="left1">
+                <span class="navspan1" onclick="aboutus(this)">About</span>
+            </div>
+        
+            <div class="left2">
+
+                <span class="navspan2">Journey</span>
+            </div>
+            <div class="middle">
+                <a onclick="clickAgain1(this)">
+                <img src="/Logos/Artsounds (1).svg">
+                </a>
+            </div>
+            <div class="right">
+                <span class="navspan3">Help</span>
+            </div>
+            <div class="right2">
+                <button type="submit" class="explore">
+                    <span class="animatedicon"><i class="fa-solid fa-brush fa-bounce"></i></span>
+                    <span class="text" onclick="clickAgain2(this)">Explore The Art!</span>
+                </button>
+            </div>
+        </div>  
+    </div>
+        <div class="middleindex">
+            <div class="midclasstime">
+                <h2>Musics</h2>
+            </div>
+            <div class="midclass2">
+                <div class="text">
+                    <h2>"Where words fail, music speaks."</h2>
+                </div>
+                <div class="artpreviews">
+                    <section class="music no1">
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href
+                            ="rover.html">
+                                <img class="musicalbum" src="Images/musics/rover.jpg">
+                                <h3>Rover</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="dieforyou(this)">
+                                <img class="musicalbum" src="Images/musics/die-for-u.jpg">
+                                <h3>Die For You</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="callingmyphone.html">
+                                <img class="musicalbum" src="Images/musics/callingmyphone.jpg">
+                                <h3>Calling My Phone</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="callmemaybe.html">
+                                <img class="musicalbum" src="Images/musics/callmemaybe.jpg">
+                                <h3>Call Me Maybe</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="allgirlsarethesame.html">
+                                <img class="musicalbum" src="Images/musics/allgirlsarethesame.jpg">
+                                <h3>All Girls Are The Same</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="loyal.html">
+                                <img class="musicalbum" src="Images/musics/loyal.jpg">
+                                <h3>Loyal</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="allthekidsaredepressed.html">
+                                <img class="musicalbum" src="Images/musics/allthekidsaredepressed.jpg">
+                                <h3>All The Kids Are Depressed</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="reminder.html">
+                                <img class="musicalbum" src="Images/musics/reminder.jpg">
+                                <h3>Reminder</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="onekiss.html">
+                                <img class="musicalbum" src="Images/musics/onekiss.jpg">
+                                <h3>One Kiss</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="loveurself.html">
+                                <img class="musicalbum" src="Images/musics/loveurself.jpg">
+                                <h3>Love Yourself</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="people.html">
+                                <img class="musicalbum" src="Images/musics/people.jpg">
+                                <h3>People</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="sayuwontletgo.html">
+                                <img class="musicalbum" src="Images/musics/Say_You_Won't_Let_Go.jpg">
+                                <h3>Say You Won't Let Go</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="Traitor.html">
+                                <img class="musicalbum" src="Images/musics/traitor.jpg">
+                                <h3>Traitor</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="until_ifoindu.html">
+                                <img class="musicalbum" src="Images/musics/until_ifoundu.jpg">
+                                <h3>Until I Found U</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="nightchanges.html">
+                                <img class="musicalbum" src="Images/musics/nightchanges.jpg">
+                                <h3>Night Changes</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="lucid_dream.html">
+                                <img class="musicalbum" src="Images/musics/lucid_dream.jpg">
+                                <h3>Lucid dream</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="itsyou.html">
+                                <img class="musicalbum" src="Images/musics/itsyou.jpg">
+                                <h3>It's You</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="iceonmybaby.html">
+                                <img class="musicalbum" src="Images/musics/iceonmybaby.jpg">
+                                <h3>Loyal</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="cupid.html">
+                                <img class="musicalbum" src="Images/musics/cupid.jpg">
+                                <h3>Cupid</h3></h1>
+                            </div>
+                        </div>
+                        <div class="musicdiv">
+                            <div class="musicinput" onclick="savethis(this)" data-href="body.html">
+                                <img class="musicalbum" src="Images/musics/body.jpg">
+                                <h3>Body</h3></h1>
+                            </div>
+                        </div>
+                       
+                    </section>
+           
+
+           </div> 
+           </div>
+      </div>
+        </div>
+
+    <footer class="main">
+      <div class="footerleft">
+        <div class="form-box">
+          <h1>Team Radiant Likes To Sent You Emails!</h1>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <input type="email" required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="fa-solid fa-signature"></i></span>
+              <input type="text" required>
+              <label>Name</label>
+            </div>
+            <button type="submit" id="buttonsign">Sign Up!</button>
+          </form>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="onclick.js"></script>
+</body>
+</html>
